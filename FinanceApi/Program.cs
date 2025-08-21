@@ -73,6 +73,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpContextAccessor();
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+builder.WebHost.UseUrls($"http://*:{port}");
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
