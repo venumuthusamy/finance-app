@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: finance-app
+    env: dotnet
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet out/FinanceApi.dll
