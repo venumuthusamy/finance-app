@@ -107,6 +107,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 // This ensures Angular routes (like /dashboard) work
-app.MapFallbackToFile("index.html");
+app.MapFallbackToFile("dist/finance/index.html");
 
 app.Run();
