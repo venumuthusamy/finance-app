@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Back - up\\Finance\\FinanceApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8F6A21D5-79D4-4D05-9A47-FAE84F6BF1B3}|FinanceApi\\FinanceApi.csproj|c:\\back - up\\finance\\financeapi\\financeapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8F6A21D5-79D4-4D05-9A47-FAE84F6BF1B3}|FinanceApi\\FinanceApi.csproj|solutionrelative:financeapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F6A21D5-79D4-4D05-9A47-FAE84F6BF1B3}|FinanceApi\\FinanceApi.csproj|c:\\back - up\\finance\\financeapi\\financeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F6A21D5-79D4-4D05-9A47-FAE84F6BF1B3}|FinanceApi\\FinanceApi.csproj|solutionrelative:financeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F6A21D5-79D4-4D05-9A47-FAE84F6BF1B3}|FinanceApi\\FinanceApi.csproj|c:\\back - up\\finance\\financeapi\\financeapi\\render.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8F6A21D5-79D4-4D05-9A47-FAE84F6BF1B3}|FinanceApi\\FinanceApi.csproj|solutionrelative:financeapi\\render.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6A21D5-79D4-4D05-9A47-FAE84F6BF1B3}|FinanceApi\\FinanceApi.csproj|c:\\back - up\\finance\\financeapi\\financeapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8F6A21D5-79D4-4D05-9A47-FAE84F6BF1B3}|FinanceApi\\FinanceApi.csproj|solutionrelative:financeapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F6A21D5-79D4-4D05-9A47-FAE84F6BF1B3}|FinanceApi\\FinanceApi.csproj|c:\\back - up\\finance\\financeapi\\financeapi\\financeapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -29,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,15 +42,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FinanceApi",
+              "Title": "FinanceApi.csproj",
               "DocumentMoniker": "C:\\Back - up\\Finance\\FinanceApi\\FinanceApi\\FinanceApi.csproj",
               "RelativeDocumentMoniker": "FinanceApi\\FinanceApi.csproj",
               "ToolTip": "C:\\Back - up\\Finance\\FinanceApi\\FinanceApi\\FinanceApi.csproj",
               "RelativeToolTip": "FinanceApi\\FinanceApi.csproj",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-22T06:49:23.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T06:49:23.346Z"
             },
             {
               "$type": "Document",
@@ -62,12 +61,11 @@
               "RelativeToolTip": "..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "ViewState": "AgIAAMgAAAAAAAAAAAAEwNkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-08-22T06:47:29.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T06:47:29.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Back - up\\Finance\\FinanceApi\\FinanceApi\\Program.cs",
               "RelativeDocumentMoniker": "FinanceApi\\Program.cs",
@@ -80,20 +78,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Back - up\\Finance\\FinanceApi\\FinanceApi\\Dockerfile",
               "RelativeDocumentMoniker": "FinanceApi\\Dockerfile",
               "ToolTip": "C:\\Back - up\\Finance\\FinanceApi\\FinanceApi\\Dockerfile",
               "RelativeToolTip": "FinanceApi\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-08-21T07:36:29.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "render.yaml",
               "DocumentMoniker": "C:\\Back - up\\Finance\\FinanceApi\\FinanceApi\\render.yaml",
               "RelativeDocumentMoniker": "FinanceApi\\render.yaml",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "FinanceApi\\render.yaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-08-21T07:30:58.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T07:30:58.557Z"
             }
           ]
         }
