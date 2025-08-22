@@ -73,8 +73,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpContextAccessor();
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
-var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
-builder.WebHost.UseUrls($"http://*:{port}");
+var port = Environment.GetEnvironmentVariable("PORT"); // just get it, don't default
+if (!string.IsNullOrEmpty(port))
+{
+    builder.WebHost.UseUrls($"http://*:{port}");
+}
 
 var app = builder.Build();
 
