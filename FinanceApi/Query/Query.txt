@@ -422,6 +422,19 @@ CREATE TABLE "OpeningBalance" (
 
 
 
+Steps To Build Appliction in URL
+
+ng build --configuration production   in angular , then it will create (dist/finance) folder
+Then copy this folder (dist/finance) into (wwwroot) folder in financeapi
+Then do launch in GitHub using the below cmd
+git add .
+git commit -m "Describe your changes"
+git push origin main
+
+Then go to render website https://render.com
+Dashboard - new - webservice  then choose project it will come from github
+ 
+
 
 
 
