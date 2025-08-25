@@ -9,8 +9,6 @@
 bin/
 obj/
 
-# Angular build output
-wwwroot/dist/
 
 # Other temp files
 *.log
