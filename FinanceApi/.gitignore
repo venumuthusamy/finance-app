@@ -1,4 +1,4 @@
-# Ignore Visual Studio temporary files
+# Visual Studio temporary files
 .vs/
 *.user
 *.suo
@@ -9,5 +9,14 @@
 bin/
 obj/
 
+# Angular build output
+wwwroot/dist/
+
 # Other temp files
 *.log
+
+# Node modules (if you have a frontend)
+node_modules/
+package-lock.json
+yarn.lock
+
