@@ -24,8 +24,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAngularApp",
         policy =>
         {
-            policy.AllowAnyOrigin()
-                  .AllowAnyHeader()
+            policy.WithOrigins("http://localhost:4200")
+                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
 });
@@ -107,6 +107,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 // This ensures Angular routes (like /dashboard) work
-app.MapFallbackToFile("dist/finance/index.html");
+app.MapFallbackToFile("index.html");
 
 app.Run();
