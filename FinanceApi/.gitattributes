@@ -1,0 +1,8 @@
+# Auto normalize line endings for all files
+* text=auto
+
+# But preserve LF for JS, CSS, HTML
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.svg text eol=lf
