@@ -3,11 +3,11 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
 # Copy csproj and restore
-COPY FinanceApi.csproj ./
+COPY FinanceApi/FinanceApi.csproj ./
 RUN dotnet restore FinanceApi.csproj
 
 # Copy all files and publish
-COPY . ./
+COPY FinanceApi/ ./   # copy all project files from FinanceApi folder
 RUN dotnet publish FinanceApi.csproj -c Release -o /app/out
 
 # Runtime stage

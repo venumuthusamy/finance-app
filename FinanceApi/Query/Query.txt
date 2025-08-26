@@ -421,10 +421,23 @@ CREATE TABLE "OpeningBalance" (
 );
 
 
+New repository create
+
+create name in GitHub
+
+git init
+git add .
+git commit -m "Initial commit - reupload project"
+git branch -M main
+git remote add origin https://github.com/venumuthusamy/finance-app.git
+git push -u origin main --force
+
+
+
 
 Steps To Build Appliction in URL
 
-ng build --configuration production   in angular , then it will create (dist/finance) folder
+1) ng build --configuration production   in angular , then it will create (dist/finance) folder
 
 Then copy this folder (dist/finance) into (wwwroot) folder in financeapi
 
@@ -435,6 +448,13 @@ git push origin main
 
 Then go to render website https://render.com
 Dashboard - new - webservice  then choose project it will come from GitHub.
+
+2) rmdir /s /q wwwroot\dist
+git add -A
+git commit -m "Update wwwroot with new Angular build"
+git push origin main
+git status
+then do in render.com
  
 
 
