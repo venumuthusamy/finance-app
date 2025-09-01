@@ -4,6 +4,7 @@ using FinanceApi.Interfaces;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Azure.Messaging;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -73,6 +74,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpContextAccessor();
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
+
+//Cloud Connection
 var port = Environment.GetEnvironmentVariable("PORT"); 
 if (!string.IsNullOrEmpty(port))
 {
