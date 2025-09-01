@@ -456,7 +456,8 @@ git push origin main
 git status
 then do in render.com
  
-
+Index.html
+base href = 'dist/finance'
 
 
 
